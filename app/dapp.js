@@ -5,7 +5,7 @@ import classnames from 'classnames';
 
 import EmbarkJS from 'Embark/EmbarkJS';
 import Blockchain from './components/blockchain';
-import King from './components/king';
+import BlockchainNim from './components/blockchainNim';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './dapp.css';
@@ -63,7 +63,7 @@ class App extends React.Component {
         </NavItem>
         <NavItem>
           <NavLink onClick={() => this.handleSelect('2')} className={classnames({ active: this.state.activeKey === '2' })}>
-            {this._renderStatus('King', this.state.blockchainEnabled)}
+            {this._renderStatus('SimpleStorageNim', this.state.blockchainEnabled)}
           </NavLink>
         </NavItem>
 
@@ -73,7 +73,7 @@ class App extends React.Component {
           <Blockchain/>
         </TabPane>
         <TabPane tabId="2">
-          <King/>
+          <BlockchainNim/>
         </TabPane>
 
       </TabContent>

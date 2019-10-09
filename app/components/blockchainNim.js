@@ -1,7 +1,7 @@
 import EmbarkJS from 'Embark/EmbarkJS';
-import SimpleStorage from '../../embarkArtifacts/contracts/SimpleStorage';
+import SimpleStorage from '../../embarkArtifacts/contracts/SimpleStorageNim';
 import React from 'react';
-import {Form, FormGroup, Input, Button, FormText, Alert} from 'reactstrap';
+import {Form, FormGroup, Input, Alert, Button, FormText} from 'reactstrap';
 
 class Blockchain extends React.Component {
 

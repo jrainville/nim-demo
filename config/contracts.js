@@ -31,12 +31,11 @@ module.exports = {
 
     deploy: {
       SimpleStorage: {
-        fromIndex: 0,
         args: [100]
       },
-      King: {
-        address: '0xea8cdD52B92e65639FE6ffd3dFFffa4a2d3bD860'
-      }
+      SimpleStorageNim: {
+        args: [100]
+      },
     }
   },
 
